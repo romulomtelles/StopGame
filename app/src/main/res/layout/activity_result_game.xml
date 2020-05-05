@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StopGame">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B91D6DB3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvLetter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Resultado"
+                android:textColor="#F3DFDF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="Nome"
+                android:textColor="#F4F2F2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="#090909"
+                android:ems="10"
+                android:hint="Nome Pessoa"
+                android:inputType="textPersonName"
+                android:textColor="#F6F5F5"
+                android:textColorHint="#514F4F" />
+
+            <TextView
+                android:id="@+id/tvNomeParticipante2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 2" />
+
+            <TextView
+                android:id="@+id/tvNomePraticipante3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 3" />
+
+            <TextView
+                android:id="@+id/tvNomeParticipante4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 4" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="CEP"
+                android:textColor="#F4F2F2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etCep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="#090909"
+                android:ems="10"
+                android:hint="Cidade/Estado/Pais"
+                android:inputType="textPersonName"
+                android:textColor="#F6F5F5"
+                android:textColorHint="#514F4F" />
+
+            <TextView
+                android:id="@+id/tvCepParticipante2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 2" />
+
+            <TextView
+                android:id="@+id/tvCepPraticipante3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 3" />
+
+            <TextView
+                android:id="@+id/tvCepParticipante4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 4" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="Cor"
+                android:textColor="#F4F2F2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etCor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="#090909"
+                android:ems="10"
+                android:hint="Cor"
+                android:inputType="textPersonName"
+                android:textColor="#F6F5F5"
+                android:textColorHint="#514F4F" />
+
+            <TextView
+                android:id="@+id/tvCorParticipante2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 2" />
+
+            <TextView
+                android:id="@+id/tvCorPraticipante3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 3" />
+
+            <TextView
+                android:id="@+id/tvCorParticipante4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 4" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="Comida"
+                android:textColor="#F4F2F2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etComida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="#090909"
+                android:ems="10"
+                android:hint="Comida"
+                android:inputType="textPersonName"
+                android:textColor="#F6F5F5"
+                android:textColorHint="#514F4F" />
+
+            <TextView
+                android:id="@+id/tvComidaParticipante2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 2" />
+
+            <TextView
+                android:id="@+id/tvComidaPraticipante3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 3" />
+
+            <TextView
+                android:id="@+id/tvComidaParticipante4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 4" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="Animal"
+                android:textColor="#F4F2F2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etAnimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="#090909"
+                android:ems="10"
+                android:hint="Animal"
+                android:inputType="textPersonName"
+                android:textColor="#F6F5F5"
+                android:textColorHint="#514F4F" />
+
+            <TextView
+                android:id="@+id/tvAnimalParticipante2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 2" />
+
+            <TextView
+                android:id="@+id/tvAnimalPraticipante3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 3" />
+
+            <TextView
+                android:id="@+id/tvAnimalParticipante4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 4" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="Carro"
+                android:textColor="#F4F2F2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etCarro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="#090909"
+                android:ems="10"
+                android:hint="Modelo ou Marca"
+                android:inputType="textPersonName"
+                android:textColor="#F6F5F5"
+                android:textColorHint="#514F4F" />
+
+            <TextView
+                android:id="@+id/tvCarroParticipante2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 2" />
+
+            <TextView
+                android:id="@+id/tvCarroPraticipante3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 3" />
+
+            <TextView
+                android:id="@+id/tvCarroParticipante4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 4" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="Objeto"
+                android:textColor="#F4F2F2"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etObjeto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="#090909"
+                android:ems="10"
+                android:hint="Objeto"
+                android:inputType="textPersonName"
+                android:textColor="#F6F5F5"
+                android:textColorHint="#514F4F" />
+
+            <TextView
+                android:id="@+id/tvObjetoParticipante2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 2" />
+
+            <TextView
+                android:id="@+id/tvObjetoPraticipante3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 3" />
+
+            <TextView
+                android:id="@+id/tvObjetoParticipante4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Participante 4" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

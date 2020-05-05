@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "578875592887",
+    "firebase_url": "https://stopgame-3c82b.firebaseio.com",
+    "project_id": "stopgame-3c82b",
+    "storage_bucket": "stopgame-3c82b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578875592887:android:ebe8a67c467f123f81fd32",
+        "android_client_info": {
+          "package_name": "com.example.stopgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578875592887-8032fhkqf09sjp6vs2185mat8k8g010q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stopgame",
+            "certificate_hash": "aa000fefa39feb67698fc9104150b02ee0b8f35e"
+          }
+        },
+        {
+          "client_id": "578875592887-i5jo3cadim8iriloe7aj7h8p76vji5rg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCek3MPfixjYka4jHT0aBbOg9wiN1lqeb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578875592887-i5jo3cadim8iriloe7aj7h8p76vji5rg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
